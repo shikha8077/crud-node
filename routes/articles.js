@@ -23,8 +23,8 @@ router.post('/new', async(req, res) => {
      } catch (e) {
          res.render('articles/new', { articles: articles });
 
+         
      }
  })
 
  module.exports = router
- 
